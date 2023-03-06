@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+html {
+  min-height: 100%;
+
+
+}
+
+body {
+  background-image: url("./images/cool-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+  
+  min-height: 100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.fullHeader {
+  padding: 2% 0% 2% 2%;
+}
+
+.headerTitle {
+  display: inline;
+  font-family: 'Bebas Neue', cursive;
+
+
+}
+
+.nav-header {
+  padding-left: 2%;
+}
+
+.mainSection {
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+
+}
+
+
+.nav-pills > .nav-item > a {
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+  font-size: xx-large;
+
+}
+
+.nav-pills > .nav-item > .nav-link.active {
+  color: white;
+  background: linear-gradient(#a58bcc, #bf953f);
+  opacity: 0.5;
+  
+}
+
+.profilePic {
+  border-radius: 15%;
+
+
+  
+}
+
+.portfolioSection {
+  display:flex;
+  justify-content: center;
+
+}
+
+
+
+
+.portfoliImg {
+  width: 100%;
+  height: auto;
+  margin: 50px 25px ;
+  padding: 0 !important;
+  border-radius: 2%;
+  border: solid thin;
+  box-shadow: 14px 16px 73px 18px rgba(0,0,0,0.7);
+  -webkit-box-shadow: 14px 16px 73px 18px rgba(0,0,0,0.7);
+  -moz-box-shadow: 14px 16px 73px 18px rgba(0,0,0,0.7);
+
+  
+  
+  
+}
+
+.portfoliImg:hover {
+  transform: scale(1.1);
+  opacity: 50%;
+}
+
+.aboutSection{
+  background-color:  rgb(255, 249, 239);
+  display:flex;
+  justify-content: center;
+ border-radius: 2%;
+  padding: 20px;
+}
+
+.contactForm {
+  background-color:  rgb(255, 249, 239);
+  display:flex;
+  justify-content: center;
+  width:600px;
+
+  margin: 0 auto;
+  padding: 100px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 2%;
+  font-size:xx-large;
+  font-family: 'Bebas Neue', cursive;
+
+  
+  
+}
+ .pageTitle {
+  display:flex;
+  justify-content: center;
+  font-family: 'Bebas Neue', cursive;
+  padding-bottom: 20px;
+ }
+
+ .btnStyle {
+
+  background-color: #cf245f;
+  background-image: linear-gradient(to bottom right, #fcd34d, #ef4444, #ec4899);
+  border: 0;
+  border-radius: .25rem;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Bebas Neue', ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem; /* 18px */
+  font-weight: 400;
+  line-height: 1.75rem; /* 28px */
+  padding: 1rem 1.25rem;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btnResume {
+ margin: 20px;
+}
+
+.btnStyle:hover {
+  box-shadow: none;
+}
+
+.footerSection {
+  display:flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.footerIcons {
+  padding: 20px;
+  color: black;
+}
+
+.footerIcons:hover {
+  color: rgb(255, 249, 239);
+}
+.blink {
+  display: inline;
+  animation: blink-animation 1s steps(5, start) infinite;
+  -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+}
+
+@media (min-width: 1024px) {
+  .btnStyle {
+    font-size: 1.5rem; /* 24px */
+    padding: 1rem 1.5rem;
+    line-height: 2rem; /* 32px */
+  }
+}
+ 
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
