@@ -27,7 +27,7 @@ export default function Resume() {
                     Download PDF
                 </button>
                 <br></br>
-                <img src="adam-hovda-resume.png" width="40%"></img>
+                <img className='resumeSection' src="adam-hovda-resume.png" width="40%"></img>
             </center>
     </div>
   );

@@ -18,7 +18,7 @@ export default function About() {
           <br></br>
           I am a fullstack developer and enjoy both frontend and backend.  As a junior developer I can bring my ability to learn and passion I have for coding.  I have worked with clients the majority of my career and have the ability to communicate accomplishments, set expectations and diffuse difficult situations.  
           </p>
-          <img src={profilePic} className='col-2 profilePic'></img>
+          <img src={profilePic} className='col-3 profilePic'></img>
         </div>
         </div>
     </container>
