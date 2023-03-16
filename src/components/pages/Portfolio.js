@@ -21,8 +21,8 @@ export default function Portfolio() {
                     <h3 className='portfoliLink'><a href="https://github.com/AnthonyFrederick7/New-Day-New-City">GitHub</a> / <a href="https://anthonyfrederick7.github.io/New-Day-New-City/"> Deployed Site</a></h3>
                    </div>
                    <div className='col-xl-5 col-md-5 col-10 projectRow'>
-                    <img className='portfoliImg' src={onOffPic}/>
-                    <h3 className='portfoliLink'><a href="https://github.com/rxtATX/OffNOn">GitHub</a> / <a href="https://limitless-castle-65696.herokuapp.com/login"> Deployed Site</a></h3>
+                    <img className='portfoliImg' src={musicJunkeezPic}/>
+                    <h3 className='portfoliLink'><a href="https://github.com/jminor90/music-junkeez">GitHub</a> / <a href="http://music-junkeez.herokuapp.com/"> Deployed Site</a></h3>
 
                     </div>
                 </div>
