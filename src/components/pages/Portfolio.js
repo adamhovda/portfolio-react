@@ -5,6 +5,8 @@ import passwordGeneratorPic from './../../images/PortfolioPics/passwordGenerator
 import schedulerPic from './../../images/PortfolioPics/schedulerPic.png'
 import socialNetworkAPIPic from './../../images/PortfolioPics/socialNetworkAPIPic.png'
 import weatherAppPic from './../../images/PortfolioPics/weatherAppPic.png'
+import musicJunkeezPic from './../../images/PortfolioPics/musicJunkeezPic.png'
+
 
 export default function Portfolio() {
   return (
